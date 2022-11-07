@@ -7,9 +7,13 @@ required Fields (Chose Auto Detect Schema) > Create Table
 3. This in turn created a load job and transfered data from Google Cloud Storage to Tables in specified
 dataset. No Transformations or coding needed for this approach.
 
-Notes: This was by far the most simple approach.
+Notes: This was by far the most simple approach. This approach would have worked for both small and
+big files.
 
 Solution 2
 ---------
-Please see: yelp_json_to_csv_etl_job.ipynb within this repo.
+Please see: yelp_json_to_csv_etl_job.ipynb within this repo. 
+
+Note: This solution worked with small files
+within dataset(size in megabytes), not the big files(size in Gigabytes).
 
