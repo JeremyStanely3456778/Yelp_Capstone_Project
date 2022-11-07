@@ -1,1 +1,15 @@
+Solution 1
+----------
+
+1. Loaded JSON files into bucket on Google Cloud Storage.
+2. On Google Console: Go to Big Query> Add Data > Google Cloud Storage > Create Table: Filled out 
+required Fields (Chose Auto Detect Schema) > Create Table 
+3. This in turn created a load job and transfered data from Google Cloud Storage to Tables in specified
+dataset. No Transformations or coding needed for this approach.
+
+Notes: This was by far the most simple approach.
+
+Solution 2
+---------
+
 
